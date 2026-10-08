@@ -5,6 +5,8 @@ import Interpolasi from '@/components/interpolasi.vue';
 import V_bind from '@/components/V_bind.vue';
 import V_model from './components/V_model.vue';
 import ref_Reactive from './components/ref_Reactive.vue';
+import KlasifikasiNilai from './components/KlasifikasiNilai.vue';
+import EksperimenToggle from './components/EksperimenToggle.vue';
 </script>
 
 <template>
@@ -18,6 +20,8 @@ import ref_Reactive from './components/ref_Reactive.vue';
   <V_bind /> <br>
   <V_model /> <br>
   <ref_Reactive /> <br>
+  <KlasifikasiNilai /> <br>
+  <EksperimenToggle /> <br>
 </template>
 
 <style scoped></style>
